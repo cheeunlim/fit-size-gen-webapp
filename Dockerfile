@@ -17,6 +17,7 @@ WORKDIR /app
 COPY --from=build /app/dist ./dist
 COPY --from=build /app/package*.json ./
 COPY --from=build /app/server.js ./
+COPY --from=build /app/server ./server
 
 # Install production dependencies only (express, cors, google-auth-library, dotenv)
 RUN npm install --omit=dev
