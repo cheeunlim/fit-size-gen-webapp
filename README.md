@@ -1,4 +1,4 @@
-# 👕 Musinsa Fit Size Image Generation Prototype
+# 👕 Fit Size Image Generation Prototype
 
 A prototype web application for generating high-quality fashion images with a focus on size and fit consistency across multiple models.
 
