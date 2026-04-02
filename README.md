@@ -31,10 +31,10 @@ The application resources are configured for the **`us-central1`** region for lo
 
 | Resource | Region / Location | Notes |
 | :--- | :--- | :--- |
-| **GCP Project** | `musinsa-snap-prototype` | Configurable via `.env` |
+| **GCP Project** | `your_gcp_project` | Configurable via `.env` |
 | **Cloud Run (App)** | `us-central1` | |
-| **Cloud Storage** | `us-central1` | Buckets: `musinsa-snap-logs`, `musinsa-snap-assets` |
-| **Firestore** | `nam5` (US Multi-region) | Gallery collection: `fitSizeGenerations` |
+| **Cloud Storage** | `us-central1` | Buckets: `your_gcs_bucket_logs`, `your_gcs_bucket_assets` |
+| **Firestore** | `nam5` (US Multi-region) | Gallery collection: `your_firestore_collection` |
 
 ## ⚙️ Setup & Installation
 
@@ -53,9 +53,9 @@ The application resources are configured for the **`us-central1`** region for lo
 2.  **Environment Configuration**:
     Create a `.env` file in the root directory:
     ```env
-    PROJECT_ID=musinsa-snap-prototype
-    GCS_BUCKET_LOGS=musinsa-snap-logs
-    GCS_BUCKET_ASSETS=musinsa-snap-assets
+    PROJECT_ID=your_gcp_project
+    GCS_BUCKET_LOGS=your_gcs_bucket_logs
+    GCS_BUCKET_ASSETS=your_gcs_bucket_assets
     PORT=8080
     ```
 
